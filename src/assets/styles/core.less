@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+@color:#fff;
+
+html,body,#root{ height: 100%; }
+
+body{
+    background-color: @color;
+    // 连续点击的报错问题
+    touch-action: pan-y; 
+}
+input{
+    outline: none;
+}
